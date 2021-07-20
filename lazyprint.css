@@ -1,0 +1,121 @@
+/* 
+文件位置:
+C:\Users\Admin\AppData\Roaming\Typora\themes
+1. h1 & h5右对齐, h6居中
+2. 高亮改为绿色边框
+> 透明背景色,宽度匹配打印字号,更利于打印
+*/
+html {
+    font-size: 16px;
+}
+body {
+    color: #000;
+}
+#write {
+    font-family: "Microsoft YaHei";
+	max-width: 1024px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #ccc;
+}
+h3 {
+    font-size: 1.3em;
+}
+h4 {
+    font-size: 1em;
+	border-top: 1px dotted #ccc;
+    padding-top: 2px;
+}
+h5 {
+    font-size: 1em;
+	text-align: right;
+    font-weight: normal;
+}
+h6 {
+    font-size: 1em;
+	text-align: center;
+    color: #444;
+    font-weight: normal;
+}
+hr {
+    background-color: #ccc;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.5em 0;
+}
+
+blockquote {
+    border-left: 4px solid #4c8;
+	color: #444;
+	padding-left: 15px;
+}
+ul,
+ol {
+    padding-left: 15px;
+}
+
+.md-fences, /* 代码区边框 */
+code {
+    margin: 0 2px;
+    padding: 2px 2px 0 2px;
+    border: 1px solid #ccc;
+	font-size: 0.9em;
+    color: #d30;
+    border-radius: 3px;
+    font-family: Consolas;
+}
+.CodeMirror-lines,
+.code-tooltip {
+    color: #444;
+}
+
+mark {
+	background-color: transparent;
+    margin: 0 2px;
+    padding: 0 2px;
+    border: 2px solid #4c88;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+a {
+    color: #060;
+}
+
+table tr,
+table th,
+table td {
+    padding: 6px 13px;
+	vertical-align: top;
+    border: 1px solid #ccc;
+    font-weight: normal;
+}
+table th {
+    background-color: #4c81;
+}
+
+@media print {
+    html {
+        font-size: 11px;
+    }
+}
+
+#write pre.md-meta-block {
+    background-color: transparent;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}

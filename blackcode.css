@@ -1,0 +1,279 @@
+/* 
+# 自定义样式
+复制文件到以下目录即可:
+C:\Users\Administrator\AppData\Roaming\Typora\themes
+
+- h1&h6居中; h5居右;
+- 代码区使用黑色;
+- 高亮使用绿色;
+ */
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: #000;
+}
+
+#write {
+    font-family: "Microsoft YaHei";
+	max-width: 1024px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #c5c5c5;
+	text-align: center;
+}
+h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid #c5c5c5;
+}
+h3 {
+    font-size: 1.3em;
+}
+h4 {
+    font-size: 1em;
+	padding-top: .3em;
+	border-top: 1px dotted #c5c5c5;
+}
+h5 {
+    font-size: 1em;
+	text-align: right;
+}
+h6 {
+    font-size: 1em;
+    color: #444;
+	text-align: center;
+}
+p, /* paragraph段间距 */
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.5em 0;
+}
+
+hr {
+    background-color: #c5c5c5;
+}
+
+blockquote {
+    border-left: 4px solid #42b983;
+	color: #444;
+    padding: 0 15px;
+}
+
+.md-fences,
+code,
+tt {
+    font-size: 0.85em;
+	color: #d63200; /* 行内代码颜色 */
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 2px 4px 0px 4px;
+    font-family: Consolas, "Microsoft YaHei";
+}
+
+mark {
+	background-color: rgba(66, 185, 131, .5); /*Vue背景色50%透明度*/
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin: 0 2px;
+    font-weight: 600;
+}
+
+img{
+	/*给图片加阴影和圆角，使其更美观*/
+    filter: drop-shadow(3px 3px 2px gray);
+    border-radius: 8px;
+}
+
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+    vertical-align: top;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.md-fences {
+    background-color: #1e2128; /*code block bg color*/
+    color: #989fad; /*comma*/
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.cm-s-inner span.cm-meta {
+    color: #BBB529;
+}
+
+.cm-s-inner span.cm-number {
+    color: #6897BB;
+}
+
+.cm-s-inner span.cm-keyword {
+    color: #CC7832;
+}
+
+.cm-s-inner span.cm-def {
+    color: #FFD760;
+}
+
+.cm-s-inner span.cm-variable {
+    color: #A9B7C6;
+}
+
+.cm-s-inner span.cm-variable-2 {
+    color: #A9B7C6;
+}
+
+.cm-s-inner span.cm-variable-3 {
+    color: #9876AA;
+}
+
+.cm-s-inner span.cm-type {
+    color: #AABBCC;
+}
+
+.cm-s-inner span.cm-property {
+    color: #FFC66D;
+}
+
+.cm-s-inner span.cm-operator {
+    color: #A9B7C6;
+}
+
+.cm-s-inner span.cm-string {
+    color: #6A8759;
+}
+
+.cm-s-inner span.cm-string-2 {
+    color: #6A8759;
+}
+
+.cm-s-inner span.cm-comment {
+    color: #787878;
+}
+
+.cm-s-inner span.cm-link {
+    color: #CC7832;
+}
+
+.cm-s-inner span.cm-atom {
+    color: #CC7832;
+}
+
+.cm-s-inner span.cm-error {
+    color: #BC3F3C;
+}
+
+.cm-s-inner span.cm-tag {
+    color: #E8BF6A;
+}
+
+.cm-s-inner span.cm-quote {
+    color: #a6e22e;
+}
+
+.cm-s-inner span.cm-attribute {
+    color: #9876AA;
+}
+
+.cm-s-inner span.cm-qualifier {
+    color: #6A8759;
+}
+
+.cm-s-inner span.cm-bracket {
+    color: #E8BF6A;
+}
+
+.cm-s-inner span.cm-builtin {
+    color: #FF9E59;
+}
+
+.cm-s-inner span.cm-special {
+    color: #FF9E59;
+}
+
+.cm-s-inner span.cm-matchhighlight {
+    color: #FFFFFF;
+    background-color: rgba(50, 89, 48, .7);
+    font-weight: normal;
+}
+
+.cm-s-inner span.cm-searching {
+    color: #FFFFFF;
+    background-color: rgba(61, 115, 59, .7);
+    font-weight: normal;
+}
+
+.cm-s-inner .CodeMirror-cursor {
+    border-left: 1px solid #A9B7C6;
+}
+
+.cm-s-inner .CodeMirror-gutters {
+    border-right: 1px solid #3F4450;
+}
+
+.cm-s-inner .CodeMirror-guttermarker {
+    color: #FFEE80;
+}
+
+.cm-s-inner .CodeMirror-guttermarker-subtle {
+    color: #D0D0D0;
+}
+
+.cm-s-inner .CodeMirrir-linenumber {
+    color: #606366;
+}
+
+.cm-s-inner .CodeMirror-matchingbracket {
+    background-color: #3B514D;
+    color: #FFEF28 !important;
+}
+
+.cm-s-inner .CodeMirror-selected {
+    background: #214283 !important;
+}
+
+.cm-s-inner .CodeMirror-selectedtext {
+    background: #214283 !important;
+}
+
+.cm-s-inner div.CodeMirror-cursor {
+    border-left: 1px solid #42b983;
+}
