@@ -87,6 +87,14 @@ mark {
     font-weight: 600;
 }
 
+.ul-list li.md-task-list-item.task-list-done p {
+    text-decoration: line-through;
+}
+
+.md-footnote.md-expand{
+    background-color: transparent;
+}
+
 img{
 	/*给图片加阴影和圆角，使其更美观*/
     filter: drop-shadow(3px 3px 2px gray);
