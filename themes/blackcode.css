@@ -7,6 +7,8 @@ C:\Users\Administrator\AppData\Roaming\Typora\themes
 - 代码区使用黑色;
 - 高亮使用绿色;
  */
+/* 借用night主题的代码配色 */
+/* @import "night/codeblock.dark.css"; */
 
 html {
     font-size: 14px;
@@ -145,6 +147,11 @@ table td:last-child {
     padding-bottom: 6px;
 }
 
+.cm-s-inner .CodeMirror-gutters {
+    border-right: 1px solid #3F4450;
+}
+
+/*--- drake 代码配色;如果 @import "night/codeblock.dark.css"; 就可以删除以下代码 ---*/
 .cm-s-inner span.cm-meta {
     color: #BBB529;
 }
@@ -253,10 +260,6 @@ table td:last-child {
     border-left: 1px solid #A9B7C6;
 }
 
-.cm-s-inner .CodeMirror-gutters {
-    border-right: 1px solid #3F4450;
-}
-
 .cm-s-inner .CodeMirror-guttermarker {
     color: #FFEE80;
 }
@@ -285,3 +288,4 @@ table td:last-child {
 .cm-s-inner div.CodeMirror-cursor {
     border-left: 1px solid #42b983;
 }
+/*--- drake 代码配色;如果 @import "night/codeblock.dark.css"; 就可以删除至此处 ---*/
