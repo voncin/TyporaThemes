@@ -78,7 +78,7 @@ int main()
 
 `![alt 属性文本](图片地址 "可选标题")`=插入图片. (Typora可以通过拖拽插入图片)
 
-![Typora设置](一级标题MD演示.assets/Typora设置.png)
+![Typora设置](一级标题MD演示.assets/RGLj3oV.jpg)
 
 Ctrl+T=插入表格, (右键插入表格; 段落插入表格)
 
