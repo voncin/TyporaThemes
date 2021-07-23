@@ -7,7 +7,8 @@ C:\Users\Administrator\AppData\Roaming\Typora\themes
 - 代码区使用黑色;
 - 高亮使用绿色;
  */
-/* 借用night主题的代码配色 */
+ 
+/* ====== 借用night主题的代码配色 ====== */
 /* @import "night/codeblock.dark.css"; */
 
 html {
@@ -103,39 +104,16 @@ img{
     border-radius: 8px;
 }
 
-table {
-    padding: 0;
-    word-break: initial;
-}
-table tr {
+table tr,
+table th,
+table td {
     border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
+    padding: 6px 13px;
+    vertical-align: top;
 }
 table tr:nth-child(2n),
 thead {
     background-color: #f8f8f8;
-}
-table th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
-}
-table td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
-    vertical-align: top;
-}
-table th:first-child,
-table td:first-child {
-    margin-top: 0;
-}
-table th:last-child,
-table td:last-child {
-    margin-bottom: 0;
 }
 
 .md-fences {
