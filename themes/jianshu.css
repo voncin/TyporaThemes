@@ -248,8 +248,12 @@ table tr td:last-child {
 }
 
 #write .CodeMirror-gutters {
-    border-right: none;
+    border-right: 1px solid #999;
 }
+#write .CodeMirror-lines {
+    margin-left: 4px;
+}
+
 
 /* 代码块框 */
 #write .md-fences {
