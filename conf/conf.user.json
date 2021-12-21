@@ -1,0 +1,16 @@
+/** For advanced users. */
+/*
+文件位置:
+C:\Users\Admin\AppData\Roaming\Typora\conf
+1. 搜索引擎设为必应;
+2. 快捷键: 行内代码:"Ctrl+`";
+*/
+{
+  "searchService": [
+    ["Search with Bing", "https://cn.bing.com/search?q=%s"]
+  ],
+
+  "keyBinding": {
+    "Code": "Ctrl+`",
+  }
+}
