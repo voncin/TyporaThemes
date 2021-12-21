@@ -17,7 +17,7 @@
 :root {
     --text-color: #333333;
     --bg-color: #ffffff;
-    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
+    --monospace: Consolas, "Microsoft YaHei", "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
@@ -65,7 +65,7 @@ body {
 
 /*code block*/
 #write .md-fences {
-    font-family: initial !important;
+    /* font-family: initial !important; */
     font-size: 1rem;
     padding: 0.5rem !important;
     border-radius: 2px;
@@ -80,7 +80,7 @@ body {
     margin: 0 2px;
     padding: 2px 4px;
     border-radius: 2px;
-    font-family: initial !important;
+    /* font-family: initial !important; */
     color: var(--drake-highlight);
     background-color: var(--height-light-bg-color);
 }

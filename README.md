@@ -1,7 +1,7 @@
 # TyporaThemes
  自用的Typora主题
 
-- `essay`: 论文风格主题
+- `essay` 论文风格主题
 > 从知乎上看到的主题, 字体 & 行距都偏大, 适合水论文.
 
 - `latex` 为排版风格主题
@@ -32,5 +32,7 @@
 - `jianshu` 简书风格主题
 
 - `vue` vue风格主题, `vue-dark` 黑色vue风格主题
+
+- `github-night` github夜间主题
 
 #### 路过的小哥哥,小姐姐, 帮忙点个星星啊 (✪ω✪)ﾉ  **`(☆ Star)`**, 爱你💖么么哒.
