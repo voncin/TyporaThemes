@@ -12,7 +12,7 @@ body {
     color: #000;
 }
 #write {
-    font-family: "Microsoft YaHei";
+    font-family: serif;
 	max-width: 1024px;
     padding-bottom: 300px;
 }
@@ -76,7 +76,7 @@ code {
 	font-size: 0.9em;
     color: #d30;
     border-radius: 3px;
-    font-family: Consolas;
+    font-family: monospace;
 }
 .CodeMirror-lines,
 .code-tooltip {
@@ -111,7 +111,6 @@ table th {
 @media print {
     html {
         font-size: 11px;
-        /* 打印字体应为HTML字体的0.7倍 */
     }
 }
 
