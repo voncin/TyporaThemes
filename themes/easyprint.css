@@ -111,6 +111,7 @@ table th {
 @media print {
     html {
         font-size: 11px;
+        /* 打印字体应为HTML字体的0.7倍 */
     }
 }
 

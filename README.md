@@ -4,7 +4,7 @@
 - `essay` 论文风格主题
 > 从知乎上看到的主题, 字体 & 行距都偏大, 适合水论文.
 
-- `latex` 为排版风格主题
+- `latex` 排版风格主题, `latex-dark` 暗色排版风格主题
 > 从github上看到的, 原主题的字体全设成了微软雅黑, 不用另外安装字体.
 ---
 > 雅黑在win10上显示效果比较好, 但是它有版权.
@@ -31,7 +31,7 @@
 
 - `jianshu` 简书风格主题
 
-- `vue` vue风格主题, `vue-dark` 黑色vue风格主题
+- `vue` vue风格主题, `vue-dark` 暗色vue风格主题
 
 - `github-night` github夜间主题
 

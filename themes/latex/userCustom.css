@@ -2,7 +2,7 @@
  * ============ TYPORA lATEX THEME ============
  * ============================================
  */
-/* 字体全部设为雅黑 */
+
 /* userCustom on Windows */
 
 :root {
@@ -10,22 +10,22 @@
 /* == 字体设置 == */
 
 	/* 基准字体 */
-	--base-Latin-font: 微软雅黑;
-	--base-Chinese-font: 微软雅黑;
+	--base-Latin-font: "Latin Modern Roman", "Latin Modern Roman 10"; /* 备选：Times, "Times New Roman" */
+	--base-Chinese-font: 宋体-简, 华文宋体;
 	--base-font-size: 9.5pt;
 
 	/* 引言字体 */
-	--quote-font: 微软雅黑;
+	--quote-font: "Latin Modern Roman", "Latin Modern Roman 10", Times, "Times New Roman", 华文仿宋;
 	--quote-font-size: 10pt; /* 这里字体用了10pt,比正文字体稍大 */
 
 	/* 代码字体（代码中的中文会调用ui-font） */
-	--code-font: Consolas, 微软雅黑;
+	--code-font: "Latin Modern Mono", "Latin Modern Mono 10";
 
 	/* 侧边栏字体 */
-	--ui-font: 微软雅黑;
+	--ui-font: "阿里巴巴普惠体 2.0";
 
 	/* source mode 字体 */
-	--sourceMode-font: 微软雅黑; /* 默认调用code-font和ui-font */
+	--sourceMode-font: "SF Mono", "阿里巴巴普惠体 2.0"; /* 默认调用code-font和ui-font */
 
 	/* 目录字体 */
 	--toc-font: ""; /* 默认调用base-font */
@@ -37,26 +37,26 @@
 
 	/* 标题字体（总设置） */
 	--heading-Latin-font: var(--base-Latin-font); /* 默认调用base-font(bold) */
-	--heading-Chinese-font: 微软雅黑;
+	--heading-Chinese-font: 华文黑体;
 
 	/* 标题字体分别设置 */
 		/* 大标题（h1）字体 */
-		--title-Chinese-font: "微软雅黑"; 
+		--title-Chinese-font: "华文黑体"; 
 		--title-font-size: 18pt;
 		/* h2字体 */
-		--h2-Chinese-font: 微软雅黑; 
+		--h2-Chinese-font: 华文黑体; 
 		--h2-font-size: 14pt;
 		/* h3字体 */
-		--h3-Chinese-font: "微软雅黑";
+		--h3-Chinese-font: "华文黑体";
 		--h3-font-size: 12pt;
 		/* h4字体 */
-		--h4-Chinese-font: 微软雅黑;
+		--h4-Chinese-font: 华文楷体;
 		--h4-font-size: 10pt;
 		/* h5字体 */
-		--h5-Chinese-font: 微软雅黑;
+		--h5-Chinese-font: 华文仿宋;
 		--h5-font-size: 10pt;
 		/* h6字体 */
-		--h6-Chinese-font: 微软雅黑;
+		--h6-Chinese-font: 华文仿宋;
 		--h6-font-size: 9.5pt;
 
 	/* 粗体样式设置 */
