@@ -30,9 +30,8 @@
 > 互换了高亮和加粗样式
 
 - `jianshu` 简书风格主题
-
 - `vue` vue风格主题, `vue-dark` 暗色vue风格主题
-
 - `github-night` github夜间主题
+- `test` 测试样式, `my-typora-theme` 官网样式文档示例, `empty` 空样式
 
 #### 路过的小哥哥,小姐姐, 帮忙点个星星啊 (✪ω✪)ﾉ  **`(☆ Star)`**, 爱你💖么么哒.
