@@ -544,11 +544,12 @@ h6.md-focus:before {
   background-color: #263238;
   color: rgba(233, 237, 237);
 }*/
-/*.cm-s-inner .CodeMirror-gutters {
-  background: #263238;
+.cm-s-inner .CodeMirror-gutters {
+  /* background: #263238;
   color: #537f7e;
-  border: none;
-}*/
+  border: none; */
+  border-right: 1px solid #263238;
+}
 /*.cm-s-inner .CodeMirror-guttermarker,
 .cm-s-inner .CodeMirror-guttermarker-subtle,
 .cm-s-inner .CodeMirror-linenumber {
