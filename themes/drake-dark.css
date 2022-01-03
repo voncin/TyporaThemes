@@ -42,7 +42,7 @@
     --strong-text-color: var(--bg-color);
     --strong-bg-color: var(--title-text-color);
     --h2-underline-bg: var(--title-text-color);
-    --horizontal-divider-color: #e7e7e7;
+    --horizontal-divider-color: #bbc9d7;
     --height-light-bg-color: #e7ecf3;
     --yaml-text-color: var(--code-block-text-color);
     --yaml-bg-color: var(--code-block-bg-color);
