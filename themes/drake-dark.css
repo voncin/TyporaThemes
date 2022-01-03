@@ -17,7 +17,7 @@
 :root {
     --bg-color: #2b2b2b;
     --text-color: #acb7c4;
-    --monospace: "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
+    --monospace: Consolas, "Microsoft YaHei", "Iosevka Curly Medium", HYZhengYuan, "JetBrains Mono", monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
@@ -74,7 +74,7 @@ body {
 
 /*code block*/
 #write .md-fences {
-    font-family: initial !important;
+    /* font-family: initial !important; */
     font-size: 1rem;
     padding: 0.5rem !important;
     border-radius: 2px;
@@ -88,7 +88,7 @@ body {
 #write code, tt {
     margin: 0 2px;
     border-radius: 2px;
-    font-family: initial !important;
+    /* font-family: initial !important; */
     color: var(--drake-highlight);
 }
 
@@ -143,7 +143,7 @@ blockquote {
     border-left: none;
 }
 
-#write strong {
+#write mark {
     color: var(--strong-text-color);
     display: inline-block;
     font-weight: normal;
@@ -216,7 +216,7 @@ h2 {
     display: inline-block;
 }
 
-h2 .md-plain:after {
+h2:after {
     display: block;
     content: '';
     height: 2px;
@@ -418,13 +418,11 @@ table tr td:last-child {
     border-right: none;
 }
 
-/* height light. */
-#write mark {
-    background-color: var(--height-light-bg-color);
+#write strong {
     color: inherit;
     border-radius: 2px;
-    padding: 2px 2px;
     margin: 0 2px;
+    font-weight: 900;
 }
 
 #write del {
