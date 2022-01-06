@@ -111,3 +111,13 @@ Markdown支持Html标签:
 <p align="right">p标签 align="right"</p>
 <center>center标签居中</center>
 使用转义符将标记符号插入为普通符号: `\#`\#, `\-`\-, `\*`\*, `\\`\\ ...
+
+| 效果 e.g.                 | Latex                 |
+| ------------------------ | --------------------- |
+| 红字 $\color{red}{红字}$ | `$\color{red}{红字}$` |
+| 黄底 $\colorbox{yellow}{黄底}$ | `$\colorbox{yellow}{黄底}$` |
+| 分数 $\frac{1}{10}$       | `$\frac{1}{10}$`      |
+
+> Latex 嵌套格式实现 黄底红字 $\colorbox{yellow}{\color{red}{黄底红字}}$
+>
+> `$\colorbox{yellow}{\color{red}{黄底红字}}$`
