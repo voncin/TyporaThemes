@@ -94,6 +94,31 @@ mark {
     text-decoration: line-through;
 }
 
+.md-task-list-item>input {
+    margin-left: -1.5em;
+    margin-top: 3px;
+}
+
+.task-list-item input:before {
+    content: "";
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    margin-left: -0.2rem;
+    margin-top: -0.2rem;
+}
+.task-list-item input:checked:before,
+.task-list-item input[checked]:before{
+	content: '√';
+	font-size: 0.85rem;
+	line-height: 1.3rem;
+}
+
 .md-footnote.md-expand{
     background-color: transparent;
 }
