@@ -20,7 +20,7 @@ body {
 }
 
 #write {
-    font-family: "Microsoft YaHei";
+    font-family: "Microsoft YaHei", sans-serif;
 	max-width: 1024px;
     padding-bottom: 300px;
 }
@@ -79,7 +79,7 @@ tt {
     background-color: #f8f8f8;
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
-    font-family: Consolas, "Microsoft YaHei";
+    font-family: Consolas, "Microsoft YaHei", monospace;
 }
 
 mark {
