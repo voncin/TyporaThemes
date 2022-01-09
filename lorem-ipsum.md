@@ -64,6 +64,16 @@ document.getElementById("demo").innerHTML = x;
 </html>
 ```
 
+code block without line number
+
+```
+sudo brew install pandoc
+```
+
+Some paragrah can contain multiple lines:  
+Line 1  
+Line 2, or show a math:
+
 [TOC]
 
 [^1]: *Forked* from https://en.wikipedia.org/wiki/Lorem_ipsum
