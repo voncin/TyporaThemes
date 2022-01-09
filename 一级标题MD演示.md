@@ -63,6 +63,8 @@ Enter=换段. ↓方向键=换段.
 #include <stdio.h>
 int main()
 {
+    int x = 1;
+    x = 1 + 2;
     printf("OK!");
     return 0;
 } //Ctrl+Enter=跳出代码块
