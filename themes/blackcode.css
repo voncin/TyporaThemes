@@ -164,6 +164,17 @@ a:hover {
     background-color: transparent;
 }
 
+#write pre.md-meta-block {
+    padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
 img{
 	/*给图片加阴影和圆角，使其更美观*/
     filter: drop-shadow(3px 3px 2px gray);
