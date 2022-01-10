@@ -8,16 +8,46 @@ C:\Users\Administrator\AppData\Roaming\Typora\themes
 - 高亮使用绿色;
  */
 
-html {
-    font-size: 14px;
+
+:root {
+    --bg-color:  #ffffff; /*change background*/
+    --text-color: #333333; /*change text color*/
+    --md-char-color: #C7C5C5; /*change color of meta characetrs like `*` in markdown */
+    --meta-content-color: #5b808d; /*change color of meta contents like image text or link address in markdown */
+
+    --primary-color: #428bca; /* color of primary buttons */
+    --primary-btn-border-color: #285e8e;
+    --primary-btn-text-color: #fff;
+
+    --window-border: 1px solid #eee; /*border for sidebar, etc*/
+
+    --active-file-bg-color: #eee; /*background color if list item in file tree or file list*/
+    --active-file-text-color: inherit;
+    --active-file-border-color: #777;
+
+    --side-bar-bg-color: var(--bg-color); /*change background of sidebar*/
+    --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
+    --item-hover-text-color: inherit;
+    --monospace: monospace; /*monospace font for codes, fences*/
+}
+/** example **/
+html, body {
+    background-color: #fefefe; /*background color of the window and titlebar*/
+    font-family: helvetica, sans-serif; /*custom font*/
 }
 
-body {
-    color: #000;
+html {
+    font-size: 14px; /*default font size*/
 }
 
 #write {
-    font-family: "Microsoft YaHei", sans-serif;
+    max-width: 90%; /*adjust size of the wriring area*/
+    font-size: 1rem; /*basic font size*/
+    color: #555; /*basic font color*/
+}
+
+
+#write {
 	max-width: 1024px;
     padding-bottom: 300px;
 }
@@ -76,7 +106,7 @@ tt {
     background-color: #f8f8f8;
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
-    font-family: Consolas, "Microsoft YaHei", monospace;
+    /* font-family: Consolas, "Microsoft YaHei", monospace; */
 }
 
 mark {
@@ -148,6 +178,7 @@ thead {
 	border-left: 1px solid #f8f8f0;
 }
 
+
 /** ported from https://codemirror.net/theme/material.css **/
 /*
 
@@ -213,6 +244,7 @@ thead {
 .md-fences .code-tooltip {
     background-color: #263238;
 }
+
 
 .cm-s-inner .cm-bracket {
 	color: #c9d1d9;
