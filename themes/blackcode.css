@@ -50,6 +50,7 @@ html {
 #write {
 	max-width: 1024px;
     padding-bottom: 300px;
+    color: #34495e;
 }
 
 h1 {
@@ -71,11 +72,12 @@ h4 {
 }
 h5 {
     font-size: 1em;
+    font-weight: normal;
 	text-align: right;
 }
 h6 {
     font-size: 1em;
-    color: #444;
+    font-weight: normal;
 	text-align: center;
 }
 p, /* paragraph段间距 */
@@ -93,7 +95,6 @@ hr {
 
 blockquote {
     border-left: 4px solid #42b983;
-	color: #444;
     padding: 0 15px;
 }
 
@@ -114,10 +115,20 @@ mark {
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
-.ul-list li.md-task-list-item.task-list-done p {
+a {
+    color: #42b983;
+    padding: 0 2px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.task-list-done {
+    /* styles for completed tasks */
     text-decoration: line-through;
 }
 
