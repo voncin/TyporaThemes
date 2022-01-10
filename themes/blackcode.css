@@ -7,8 +7,12 @@ C:\Users\Administrator\AppData\Roaming\Typora\themes
 - 代码区使用黑色;
 - 高亮使用绿色;
  */
+:root {
+    --select-text-bg-color: rgb(3, 96, 209);
+    --select-text-font-color: #ffffff;
+}
 
-
+ 
 :root {
     --bg-color:  #ffffff; /*change background*/
     --text-color: #333333; /*change text color*/
@@ -80,6 +84,7 @@ h6 {
     font-weight: normal;
 	text-align: center;
 }
+
 p, /* paragraph段间距 */
 blockquote,
 ul,
@@ -131,12 +136,10 @@ a:hover {
     /* styles for completed tasks */
     text-decoration: line-through;
 }
-
 .md-task-list-item>input {
     margin-left: -1.5em;
     margin-top: 3px;
 }
-
 .task-list-item input:before {
     content: "";
     display: inline-block;

@@ -240,7 +240,8 @@ code, .md-fences {
 }
 .task-list-item input:checked:before,
 .task-list-item input[checked]:before{
-	content: '√';
+	content: '\25FC';
+	/*◘*/
 	font-size: 0.8125rem;
 	line-height: 0.9375rem;
 	/* margin-top: -1rem; */
