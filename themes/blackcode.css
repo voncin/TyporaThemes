@@ -181,6 +181,10 @@ img{
     border-radius: 8px;
 }
 
+table {
+	width: max-content;
+	max-width: 100%;
+}
 table tr,
 table th,
 table td {
