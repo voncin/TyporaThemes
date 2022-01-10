@@ -213,3 +213,7 @@ thead {
 .md-fences .code-tooltip {
     background-color: #263238;
 }
+
+.cm-s-inner .cm-bracket {
+	color: #c9d1d9;
+}
