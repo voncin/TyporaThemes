@@ -155,7 +155,7 @@ a:hover {
 }
 .task-list-item input:checked:before,
 .task-list-item input[checked]:before{
-	content: '√';
+	content: '✓';
 	font-size: 0.85rem;
 	line-height: 1.3rem;
 }
