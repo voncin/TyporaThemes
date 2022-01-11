@@ -55,6 +55,7 @@ html {
 	max-width: 1024px;
     padding-bottom: 300px;
     color: #34495e;
+    font-family: system-ui, Arial, sans-serif;
 }
 
 h1 {
@@ -112,7 +113,7 @@ tt {
     background-color: #f8f8f8;
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
-    /* font-family: Consolas, "Microsoft YaHei", monospace; */
+    font-family: Consolas, Menlo, "Courier New", system-ui, monospace;
 }
 
 mark {

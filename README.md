@@ -35,6 +35,6 @@
 
 - `github-night` github夜间主题
 
-- `test` 测试样式, `my-typora-theme` 官网样式文档示例, `empty` 空样式
+- `test` 测试样式
 
 #### 路过的小哥哥,小姐姐, 帮忙点个星星啊 (✪ω✪)ﾉ  **`(☆ Star)`**, 爱你💖么么哒.
