@@ -12,9 +12,13 @@ body {
     color: #000;
 }
 #write {
-    font-family: serif;
+    font-family: "Times New Roman", 宋体, serif;
 	max-width: 1024px;
     padding-bottom: 300px;
+}
+
+em {
+    font-family: 仿宋, serif;
 }
 
 h1 {
@@ -76,7 +80,7 @@ code {
 	font-size: 0.9em;
     color: #d30;
     border-radius: 3px;
-    font-family: monospace;
+    font-family: "Courier New", 宋体, monospace;
 }
 .CodeMirror-lines,
 .code-tooltip {
