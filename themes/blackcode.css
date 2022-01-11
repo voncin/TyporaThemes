@@ -136,7 +136,7 @@ a:hover {
     /* styles for completed tasks */
     text-decoration: line-through;
 }
-.md-task-list-item>input {
+.md-task-list-item input {
     margin-left: -1.5em;
     margin-top: 3px;
 }
