@@ -280,3 +280,6 @@ thead {
 .cm-s-inner .cm-bracket {
 	color: #c9d1d9;
 }
+.CodeMirror.cm-s-inner {
+    background: #263238;
+}
