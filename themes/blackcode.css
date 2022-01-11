@@ -106,7 +106,7 @@ blockquote {
 .md-fences,
 code,
 tt {
-    font-size: 0.85em;
+    /* font-size: 0.85em; */
 	color: #d63200; /* 行内代码颜色 */
     border: 1px solid #e7eaed;
     background-color: #f8f8f8;
@@ -132,12 +132,15 @@ a:hover {
     text-decoration: underline;
 }
 
+
 .task-list-done {
     /* styles for completed tasks */
     text-decoration: line-through;
 }
+
+
 .md-task-list-item input {
-    margin-left: -1.5em;
+    margin-left: -1.5rem;
     margin-top: 3px;
 }
 .task-list-item input:before {
@@ -167,9 +170,7 @@ a:hover {
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
-    line-height: 1.45;
     background-color: #f7f7f7;
-    border: 0;
     border-radius: 3px;
     color: #777777;
     margin-top: 0 !important;
