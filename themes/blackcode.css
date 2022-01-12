@@ -199,6 +199,11 @@ thead {
     background-color: #f8f8f8;
 }
 
+mjx-container{
+    text-align: left !important;
+    /* 行内公式与公式块 */
+}
+
 .md-fences {
     margin-bottom: 15px;
     margin-top: 15px;
