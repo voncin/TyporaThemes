@@ -69,7 +69,7 @@ blockquote {
 }
 ul,
 ol {
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .md-fences, /* 代码区边框 */
@@ -109,6 +109,29 @@ table td {
 }
 table th {
     background-color: #4c81;
+}
+
+.md-task-list-item input {
+    -webkit-appearance: none;
+    margin-left: -1.5rem;
+    margin-top: 3px;
+}
+.md-task-list-item input:before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: -0.2rem;
+    margin-left: -0.2rem;
+}
+.md-task-list-item input:checked:before,
+.md-task-list-item input[checked]:before {
+    content: '√';
+    font-size: 0.9rem;
+    line-height: 1.2rem;
 }
 
 @media print {
