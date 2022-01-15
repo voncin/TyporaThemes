@@ -69,7 +69,7 @@ blockquote {
 }
 ul,
 ol {
-    padding-left: 25px;
+    padding-left: 2em;
 }
 
 .md-fences, /* 代码区边框 */
