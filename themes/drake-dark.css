@@ -399,7 +399,8 @@ ul,
 ol,
 dl,
 table {
-    margin: 0.8em 0;
+	line-height: 1.8em;
+    margin: 0.4em 0;
 }
 
 li > ol,
