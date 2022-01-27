@@ -1111,9 +1111,9 @@ a.ty-link {
     font-weight: normal;
 }
 .cm-s-inner .CodeMirror-gutters {
-    border-right: none;
+    border-right: 1px solid var(--bg-color);
     border-radius: 2px;
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     background: var(--bg-color);
 }
 .cm-s-inner .CodeMirror-linenumber {
