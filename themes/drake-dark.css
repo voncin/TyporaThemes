@@ -181,9 +181,6 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 #write code, tt {
     margin: 0 2px;
     color: var(--drake-highlight);
-    background-color: var(--code-block-bg-color);
-	padding: 2px 4px;
-	border-radius: 2px;
 }
 
 /*variable*/
@@ -528,13 +525,12 @@ table tr td:last-child {
 
 /* height light */
 #write mark {
-    border: .1em solid var(--height-light-border-color);
-    color: var(--height-light-color);
-    background-color: transparent;
+    color: var(--title-color);
+    background-color: rgba(52, 115, 176, 0.5);
     padding: .1rem .5rem;
     border-radius: 2rem;
     margin: 0 .2rem;
-    font-size: .95rem;
+    font-size: .95em;
 }
 
 /*shortcut*/

@@ -42,7 +42,7 @@
     --title-color: #273849;
     --blockquote-border-color: var(--drake-accent);
     --blockquote-color: var(--text-color);
-    --blockquote-bg-color: #fdefee;
+    --blockquote-bg-color: rgba(233,95,89,0.1);
     --strong-color: var(--title-color);
     --h2-underline-color: var(--title-color);
     --horizontal-divider-color: var(--title-color);
@@ -173,9 +173,6 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
 #write code, tt {
     margin: 0 2px;
     color: var(--drake-highlight);
-    background-color: var(--code-block-bg-color);
-	padding: 2px 4px;
-	border-radius: 2px;
 }
 
 /*variable*/
@@ -520,13 +517,12 @@ table tr td:last-child {
 
 /* height light */
 #write mark {
-    border: .1em solid var(--height-light-border-color);
-    color: var(--height-light-color);
-    background-color: transparent;
+    color: var(--title-color);
+    background-color: rgba(233,95,89,0.3);
     padding: .1rem .5rem;
     border-radius: 2rem;
     margin: 0 .2rem;
-    font-size: .95rem;
+    font-size: .95em;
 }
 
 /*shortcut*/
