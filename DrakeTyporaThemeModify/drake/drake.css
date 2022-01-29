@@ -6,8 +6,7 @@
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
 	--blockquote-border-color: var(--drake-accent);
     --h2-underline-bg: var(--title-text-color);
-
-    --height-light-bg-color: #e7ecf3;
+	
 	--footnotes-bg-color: #3c3d3e;
 	--footnotes-highlight: #FFD760;
 
@@ -45,10 +44,12 @@ body {
 /*code snippet*/
 #write code, tt {
     margin: 0 2px;
-    border-radius: 2px;
+    padding: 2px 4px;
+    border-radius: .4em;
     color: var(--drake-highlight);
+	background-color: var(--table-bg-color);
+	border: 1px solid var(--table-border-color);
 }
-
 /*raw block*/
 .md-rawblock-control:not(.md-rawblock-tooltip) {
     border-radius: 2px 0 2px 2px;
@@ -110,9 +111,11 @@ blockquote {
     border-radius: 3em;
 }
 
-a {
+#write a {
     color: var(--drake-highlight);
     padding: 0 2px;
+    text-decoration: none;
+    border-bottom: .1rem solid var(--drake-highlight);
 }
 
 img {
@@ -123,6 +126,9 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 30px 100px;
+}
+#typora-source .CodeMirror-lines {
+    max-width: 1200px;
 }
 
 #write p {
@@ -325,13 +331,11 @@ table {
     padding: 0;
     word-break: initial;
 }
-
 table tr {
     border-top: 1px solid var(--table-border-color);
     margin: 0;
     padding: 0;
 }
-
 table tr:nth-child(2n),
 thead {
     background-color: var(--table-bg-color);
@@ -341,14 +345,12 @@ table tr th {
     font-weight: bold;
     border: 1px solid var(--table-border-color);
     border-bottom: 0;
-    text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
 
 table tr td {
     border: 1px solid var(--table-border-color);
-    text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
@@ -357,7 +359,6 @@ table tr th:first-child,
 table tr td:first-child {
     margin-top: 0;
 }
-
 table tr th:last-child,
 table tr td:last-child {
     margin-bottom: 0;
@@ -546,8 +547,6 @@ table tr td:last-child {
 }
 
 .searchpanel-search-option-btn.active {
-    background: transparent;
-    color: var(--text-color);
     background: var(--text-color);
     color: var(--bg-color);
 }
