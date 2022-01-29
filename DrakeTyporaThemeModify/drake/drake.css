@@ -442,7 +442,7 @@ table tr td:last-child {
 
 .md-image > .md-meta {
     border-radius: 2px;
-    font-family: initial;
+    font-family: inherit;
     padding: 2px 0 0 4px;
     color: inherit;
 }
@@ -566,7 +566,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-    font-family: initial;
+    font-family: inherit;
 }
 
 .file-node-content:hover .file-node-icon,
@@ -581,7 +581,8 @@ footer {
 /*insert element*/
 
 .file-list-item-summary {
-    font-family: initial;
+    font-family: inherit;
+    font-size: 0.9rem !important;
 }
 
 .outline-item {
