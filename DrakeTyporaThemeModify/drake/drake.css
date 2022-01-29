@@ -442,7 +442,6 @@ table tr td:last-child {
 
 .md-image > .md-meta {
     border-radius: 2px;
-    font-family: inherit;
     padding: 2px 0 0 4px;
     color: inherit;
 }
