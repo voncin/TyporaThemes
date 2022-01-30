@@ -107,7 +107,8 @@ blockquote {
 #write mark {
     color: var(--strong-text-color);
     font-size: 0.9em;
-    padding: 2px 7px;
+    padding: 2px 5px;
+    margin: 0 2px;
     background-color: var(--strong-bg-color);
     border-radius: 0.6em;
 }
