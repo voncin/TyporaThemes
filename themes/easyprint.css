@@ -49,6 +49,10 @@ h6 {
     color: #444;
     font-weight: normal;
 }
+h6 > span {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
 hr {
     background-color: #ccc;
 }
@@ -99,16 +103,17 @@ a {
     color: #060;
 }
 
-table tr,
 table th,
 table td {
     padding: 6px 13px;
 	vertical-align: top;
-    border: 1px solid #ccc;
     font-weight: normal;
 }
-table th {
-    background-color: #4c81;
+table td {
+    border-top: 1px solid #ccc;
+}
+table tbody {
+    border-top: 2px solid #ccc;
 }
 
 .md-task-list-item input {
