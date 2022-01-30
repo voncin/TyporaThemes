@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
-    --monospace: Consolas, Menlo, "Courier New", system-ui, monospace;
+    --monospace: "Fira Code", "JetBrains Mono", Consolas, Menlo, "Courier New", system-ui, monospace;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
