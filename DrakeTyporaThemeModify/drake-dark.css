@@ -10,7 +10,6 @@
     --item-hover-bg-color: #222222;
     --active-file-bg-color: var(--item-hover-bg-color);
     --mermaid-theme: night;
-
     --blur-text-color: rgba(172, 183, 196, 0.5);
     --md-char-color: #535455;
     --active-file-bg-color: var(--item-hover-bg-color);
@@ -20,7 +19,7 @@
     --item-hover-bg-color: #3c3d3e;
     --select-text-bg-color: #3473B068;
     --window-border: 1px solid #282828;
-	
+
     --drake-accent: #3473b0;
     --drake-highlight: #58a1d6;
     --code-block-bg-color: #3c3d3e;
