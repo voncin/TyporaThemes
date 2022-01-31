@@ -35,6 +35,7 @@ body {
 
 /*code block*/
 #write .md-fences {
+    font-family: inherit !important;
     font-size: 1rem;
     padding: 0.5rem !important;
     border-radius: 2px;
@@ -46,13 +47,16 @@ body {
 
 /*code snippet*/
 #write code, tt {
+    font-size: 0.9em;
     margin: 0 2px;
-    padding: 2px 4px;
-    border-radius: .4em;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-family: inherit !important;
     color: var(--drake-highlight);
 	background-color: var(--table-bg-color);
 	border: 1px solid var(--table-border-color);
 }
+
 /*raw block*/
 .md-rawblock-control:not(.md-rawblock-tooltip) {
     border-radius: 2px 0 2px 2px;
@@ -106,9 +110,10 @@ blockquote {
 
 #write mark {
     color: var(--strong-text-color);
-    font-size: 0.9em;
-    padding: 2px 5px;
+    display: inline-block;
+    font-weight: normal;
     margin: 0 2px;
+    padding: 0 5px;
     background-color: var(--strong-bg-color);
     border-radius: 0.6em;
 }
@@ -134,7 +139,7 @@ img {
 }
 
 #write p {
-    line-height: 1.8rem;
+    line-height: 1.6rem;
     word-spacing: .05rem;
 }
 
@@ -251,7 +256,7 @@ ul,
 ol,
 dl,
 table {
-    margin: 0.5em 0;
+    margin: 0.8em 0;
 }
 
 li > ol,
@@ -333,11 +338,13 @@ table {
     padding: 0;
     word-break: initial;
 }
+
 table tr {
     border-top: 1px solid var(--table-border-color);
     margin: 0;
     padding: 0;
 }
+
 table tr:nth-child(2n),
 thead {
     background-color: var(--table-bg-color);
@@ -347,12 +354,14 @@ table tr th {
     font-weight: bold;
     border: 1px solid var(--table-border-color);
     border-bottom: 0;
+    text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
 
 table tr td {
     border: 1px solid var(--table-border-color);
+    text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
@@ -361,6 +370,7 @@ table tr th:first-child,
 table tr td:first-child {
     margin-top: 0;
 }
+
 table tr th:last-child,
 table tr td:last-child {
     margin-bottom: 0;
@@ -381,6 +391,7 @@ table tr td:last-child {
 #write strong {
     color: inherit;
     border-radius: 2px;
+    padding: 2px 2px;
     margin: 0 2px;
     font-weight: 900;
 }
@@ -446,6 +457,7 @@ table tr td:last-child {
 
 .md-image > .md-meta {
     border-radius: 2px;
+    font-family: inherit;
     padding: 2px 0 0 4px;
     color: inherit;
 }
