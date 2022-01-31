@@ -28,7 +28,6 @@
     --blockquote-bg-color: #3a4451;
     --strong-text-color: #000000;
     --strong-bg-color: var(--drake-highlight);
-    --horizontal-divider-color: #bbc9d7;
     --yaml-text-color: var(--code-block-text-color);
     --yaml-bg-color: var(--code-block-bg-color);
     --table-border-color: #535455;

@@ -9,6 +9,7 @@
     --rawblock-edit-panel-bd: var(--code-block-bg-color);
 	--blockquote-border-color: var(--drake-accent);
     --h2-underline-bg: var(--title-text-color);
+    --horizontal-divider-color: var(--table-border-color);
 	
 	--footnotes-bg-color: #3c3d3e;
 	--footnotes-highlight: #FFD760;
