@@ -148,7 +148,7 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #ff9090
 }
-
+/* 
 .info-panel-tab:hover {
     color:  #42b983;
 }
@@ -160,7 +160,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 input {
     color: #42b983;
 }
-
+ */
 .info-panel-tab:hover {
     color:  #42b983;
 }
