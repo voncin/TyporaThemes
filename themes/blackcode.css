@@ -177,11 +177,11 @@ img{
 	/*给图片加阴影和圆角，使其更美观*/
     filter: drop-shadow(3px 3px 2px gray);
     border-radius: 8px;
-	/* margin: unset !important; */
+	/* margin: initial !important; */
 }
 
 table {
-	width: auto;
+	width: initial;
 }
 table tr,
 table th,
