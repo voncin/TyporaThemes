@@ -122,7 +122,6 @@ mark {
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
-    /* font-weight: 600; */
 }
 
 a {
@@ -178,11 +177,11 @@ img{
 	/*给图片加阴影和圆角，使其更美观*/
     filter: drop-shadow(3px 3px 2px gray);
     border-radius: 8px;
+	/* margin: unset !important; */
 }
 
 table {
-	width: max-content;
-	max-width: 100%;
+	width: auto;
 }
 table tr,
 table th,
