@@ -18,3 +18,8 @@ h6 {
 footer.ty-footer {
     border-top: var(--window-border);
 }
+/* 修正文件树图标与文字未对齐 */
+.file-node-content {
+  display: flex;
+  align-items: center;
+}

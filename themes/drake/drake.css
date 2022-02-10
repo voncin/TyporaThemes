@@ -801,6 +801,13 @@ div.code-tooltip-content {
 .typora-sourceview-on #toggle-sourceview-btn{
     background-color: var(--btn-hover-bg-color);
 }
+/* 文件树 */
+.file-node-open-state {
+  margin-right: 20px;
+}
+.file-node-icon{
+  margin-right: 10px;
+}
 
 /*preference panel*/
 #megamenu-content {
