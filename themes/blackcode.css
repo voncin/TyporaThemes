@@ -114,7 +114,7 @@ tt {
     /* font-size: 0.85em; */
 	color: #d63200; /* 行内代码颜色 */
     border: 1px solid #d1d9e6;
-    background-color: rgba(209,217,230, .5);
+    background-color: rgba(209,217,230, .4);
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
     font-family: Consolas, Menlo, "Courier New", system-ui, monospace;
@@ -203,7 +203,7 @@ table {
 table tr,
 table th,
 table td {
-    border: 1px solid #dfe2e5;
+    border: 1px solid #d1d9e6;
     padding: 6px 13px;
     vertical-align: top;
 }
