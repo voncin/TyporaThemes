@@ -113,7 +113,7 @@ code,
 tt {
     /* font-size: 0.85em; */
 	color: #d63200; /* 行内代码颜色 */
-    border: 1px solid #e7eaed;
+    border: 1px solid #d1d9e6;
     background-color: rgba(209,217,230, .5);
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
@@ -183,7 +183,7 @@ a:hover {
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
-    background-color: #d1d9e6;
+    background-color: #e7eaed;
     border-radius: 3px;
     color: var(--text-color);
     margin-top: 0 !important;
