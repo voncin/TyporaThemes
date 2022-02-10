@@ -22,4 +22,5 @@ footer.ty-footer {
 .file-node-content {
   display: flex;
   align-items: center;
+  padding-bottom: 4px;
 }
