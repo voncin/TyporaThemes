@@ -7,12 +7,7 @@ C:\Users\Administrator\AppData\Roaming\Typora\themes
 - 代码区使用黑色;
 - 高亮使用绿色;
  */
-:root {
-    --select-text-bg-color: rgb(3, 96, 209);
-    --select-text-font-color: #ffffff;
-}
 
- 
 :root {
     --bg-color:  #ffffff; /*change background*/
     --text-color: #333333; /*change text color*/
@@ -51,6 +46,14 @@ html {
 }
 
 
+:root {
+    --select-text-bg-color: rgb(3, 96, 209);
+    --select-text-font-color: #ffffff;
+    --bg-color:  #ecf0f3;
+}
+body {
+	background: #ecf0f3;
+}
 #write {
 	max-width: 1024px;
     padding-bottom: 300px;
@@ -111,7 +114,7 @@ tt {
     /* font-size: 0.85em; */
 	color: #d63200; /* 行内代码颜色 */
     border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
+    background-color: rgba(209,217,230, .5);
     border-radius: 3px;
     padding: 2px 4px 0px 4px;
     font-family: Consolas, Menlo, "Courier New", system-ui, monospace;
@@ -122,6 +125,15 @@ mark {
     border-radius: 2px;
     padding: 2px 4px;
     margin: 0 2px;
+}
+
+kbd {
+	border-radius: 5px;
+	background: #ecf0f3;
+	box-shadow:  2px 2px 6px #c9cccf, -2px -2px 6px #ffffff;
+	border: none;
+    padding: 4px 8px 2px 8px;
+	margin: 2px 4px;
 }
 
 a {
@@ -171,9 +183,9 @@ a:hover {
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
-    background-color: #f7f7f7;
+    background-color: #d1d9e6;
     border-radius: 3px;
-    color: #777777;
+    color: var(--text-color);
     margin-top: 0 !important;
 }
 
@@ -197,22 +209,12 @@ table td {
 }
 table tr:nth-child(2n),
 thead {
-    background-color: #f8f8f8;
+    background-color: rgba(209,217,230, .2);
 }
 
 mjx-container{
     text-align: left !important;
     /* 行内公式与公式块 */
-}
-
-.md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-}
-.cm-s-inner div.CodeMirror-cursor {
-	border-left: 1px solid #f8f8f0;
 }
 
 
@@ -283,6 +285,15 @@ mjx-container{
 }
 
 
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.cm-s-inner div.CodeMirror-cursor {
+	border-left: 1px solid #f8f8f0;
+}
 .cm-s-inner .cm-bracket {
 	color: #c9d1d9;
 }

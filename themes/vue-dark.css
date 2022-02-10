@@ -12,6 +12,7 @@
     --text-color: #aaaaaa;
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
+    --window-border: 2px solid hsl(0, 0%, 15%);
 }
 
 .md-rawblock-control:not(.md-rawblock-tooltip) {
