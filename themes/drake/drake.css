@@ -802,12 +802,12 @@ div.code-tooltip-content {
     background-color: var(--btn-hover-bg-color);
 }
 /* 文件树 */
-.file-node-open-state {
+/* .file-node-open-state {
   margin-right: 20px;
 }
 .file-node-icon{
   margin-right: 10px;
-}
+} */
 
 /*preference panel*/
 #megamenu-content {
