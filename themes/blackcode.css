@@ -161,6 +161,7 @@ a:hover {
     /* padding: 0.12rem;
 	background-clip: content-box;
 	background-color: black; */
+	/* 对勾变黑点 */
 }
 
 .md-footnote.md-expand{
@@ -181,6 +182,7 @@ img{
     filter: drop-shadow(3px 3px 2px gray);
     border-radius: 8px;
 	/* margin: initial !important; */
+	/* 图片左对齐 */
 }
 
 table {
