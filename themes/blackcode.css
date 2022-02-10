@@ -158,6 +158,9 @@ a:hover {
 .task-list-item input:checked:before,
 .task-list-item input[checked]:before{
 	content: '✓';
+    /* padding: 0.12rem;
+	background-clip: content-box;
+	background-color: black; */
 }
 
 .md-footnote.md-expand{
