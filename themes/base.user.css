@@ -24,3 +24,10 @@ footer.ty-footer {
   align-items: center;
   padding-bottom: 4px;
 }
+/* 退出显示源码 */
+/* .typora-sourceview-on #toggle-sourceview-btn {
+  background: var(--bg-color);
+}
+.typora-sourceview-on #toggle-sourceview-btn:hover {
+  background: var(--item-hover-bg-color);
+} */

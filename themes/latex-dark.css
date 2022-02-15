@@ -749,3 +749,7 @@ html>body>content {
 span > a {
   color: #8BB1F9;
 }
+
+.typora-sourceview-on #toggle-sourceview-btn{
+    background-color: var(--item-hover-bg-color);
+}

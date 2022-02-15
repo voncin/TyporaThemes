@@ -22,3 +22,7 @@
 #write {
     cursor: -webkit-image-set(url("night/cursor.png") 1x, url("night/cursor@2x.png") 2x) 8 8, auto;
 }
+
+.typora-sourceview-on #toggle-sourceview-btn{
+    background-color: var(--item-hover-bg-color);
+}
