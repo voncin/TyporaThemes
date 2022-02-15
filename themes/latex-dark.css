@@ -34,7 +34,7 @@
     --text-color: #DCDCDC;
     --select-text-bg-color: #9AB1CF;
     --select-text-font-color: #161616;
-    /*--bg-color: hsl(0, 0%, 15%);*/
+    --bg-color: hsl(0, 0%, 15%);
     --mermaid-theme: night;
 }
 
