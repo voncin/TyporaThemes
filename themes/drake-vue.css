@@ -310,12 +310,12 @@ h1 {
     margin-top: 0;
 }
 
-h2.md-end-block.md-heading {
+h2 {
     font-size: 1.6rem;
     display: inline-block;
 }
 
-h2.md-end-block.md-heading:after {
+h2:after {
     display: block;
     content: '';
     height: 2px;
