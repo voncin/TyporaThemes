@@ -25,7 +25,7 @@
     --code-block-bg-color: #3c3d3e;
     --code-block-text-color: #A9B7C6;
     --title-text-color: #acb7c4;
-    --blockquote-bg-color: #3a4451;
+    --blockquote-bg-color: rgba(52, 115, 176, 0.1);
     --strong-text-color: #000000;
     --strong-bg-color: var(--drake-highlight);
     --yaml-text-color: var(--code-block-text-color);

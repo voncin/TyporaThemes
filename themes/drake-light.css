@@ -9,7 +9,8 @@
     --code-block-bg-color: #f6f8fa;
     --code-block-text-color: #24292e;
     --title-text-color: #273849;
-    --blockquote-bg-color: #fdefee;
+    /* --blockquote-bg-color: #fdefee; */
+	--blockquote-bg-color: rgba(233,95,89,0.1);
     --strong-text-color: #ffffff;
     --strong-bg-color: var(--drake-accent);
     --yaml-text-color: #777777;
