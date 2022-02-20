@@ -113,7 +113,7 @@ blockquote {
 #write mark {
     color: var(--strong-text-color);
     display: inline-block;
-    font-weight: normal;
+    /* font-weight: normal; */
     margin: 0 2px;
     padding: 0 5px;
     background-color: var(--strong-bg-color);
