@@ -115,18 +115,19 @@ hr {
     border: none
 }
 
-a,
+#write a,
+.md-url,
 .md-def-url {
     color: var(--text-color);
     text-decoration: none;
     border-bottom:0.05em solid;
-    border-color: #37352f;
+    border-color: #ebebeb;
     opacity:0.6;
     transition: all .1s ease-in; 
 }
 
-a:hover {
-    text-decoration: none;
+#write a:hover {
+    text-decoration: none !important;
     opacity:1;
 }
 
