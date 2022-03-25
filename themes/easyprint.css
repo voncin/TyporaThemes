@@ -12,13 +12,13 @@ body {
     color: #000;
 }
 #write {
-    font-family: "Times New Roman", 宋体, serif;
+    font-family: "Source Han Serif", "Times New Roman", 宋体, serif;
 	max-width: 1024px;
     padding-bottom: 300px;
 }
 
 em {
-    font-family: 仿宋, serif;
+    font-family: "Source Han Serif", 仿宋, serif;
 }
 
 h1 {
@@ -85,7 +85,7 @@ code {
 	font-size: 0.9em;
     color: #d30;
     border-radius: 3px;
-    font-family: "Courier New", 宋体, monospace;
+    font-family: "Source Han Mono", "Source Han Serif", "Courier New", 宋体, monospace;
 }
 .CodeMirror-lines,
 .code-tooltip {
@@ -104,11 +104,15 @@ a {
     color: #060;
 }
 
+table {
+	width: initial;
+}
 table th,
 table td {
     padding: 6px 13px;
 	vertical-align: top;
     font-weight: normal;
+	border: 1px solid #ccc;
 }
 table td {
     border-top: 1px solid #ccc;
