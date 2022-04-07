@@ -12,13 +12,13 @@ body {
     color: #000;
 }
 #write {
-    font-family: "Source Han Sans", "Source Han Serif", "Times New Roman", 宋体, serif;
+    font-family: "Source Han Serif", "Times New Roman", 宋体, serif;
 	max-width: 1024px;
     padding-bottom: 300px;
 }
 
 em {
-    font-family: "Source Han Serif", 仿宋, serif;
+    font-family: "Source Han Sans", "Source Han Serif", 仿宋, serif;
 }
 
 h1 {
