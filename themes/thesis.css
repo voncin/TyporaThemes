@@ -187,7 +187,7 @@ strong {
   /* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
   width: auto;
   /* 使表格默认居中；虽然这个代码不好，但好像没别的实现办法 */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 #write table td {
   padding: 0px 6px;
@@ -254,12 +254,12 @@ blockquote {
   font-style: normal;
   font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, serif;
   font-size: var(--quote-font-size);
-  border-left: 3px solid grey;
+  border-left: 3px solid var(--border-color);
   /* 文字离左边框的距离 */
   padding-left: 16px;
   padding-right: 20pt;
   /* 左边框离页面边的距离 */
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 hr {
@@ -364,7 +364,7 @@ li code {
   line-height: 2rem;
 }
 
-#write h2:before {
+/* #write h2:before {
   counter-increment: h2;
   content: counter(h2);
   margin-right: 2rem;
@@ -392,7 +392,7 @@ li code {
   counter-increment: h6;
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6);
   margin-right: 2rem;
-}
+} */
 
 .footnotes-area .footnote-line {
   color: var(--text-color);
@@ -531,7 +531,7 @@ pre.md-meta-block {
   font-family: var(--code-font), var(--ui-font), monospace;
 }
 
-#write > h3.md-focus:before,
+/* #write > h3.md-focus:before,
 #write > h4.md-focus:before,
 #write > h5.md-focus:before,
 #write > h6.md-focus:before,
@@ -552,4 +552,4 @@ h6.md-focus:before {
   vertical-align: inherit;
   font-weight: inherit;
   line-height: inherit;
-}
+} */
