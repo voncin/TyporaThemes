@@ -1,6 +1,6 @@
-# 一级标题:MD演示
+# 一级标题:`MD`演示
 
-## 二级标题: `#`+`Space`标记标题 [百度网址链接](https://www.baidu.com/)
+## 二级标题: `#`+`Space`标记标题[百度网址链接](https://www.baidu.com/)
 
 ### 快捷键: Ctrl+3=三级==标题==
 
@@ -70,7 +70,7 @@ int main()
 } //Ctrl+Enter=跳出代码块
 ```
 
-`[链接名]`+ `(链接地址)`=网页链接: [百度网址链接](https://www.baidu.com/)
+`[链接名]`+ `(链接地址)`=网页链接:[百度网址链接](https://www.baidu.com/)
 
 > `<链接路径>` <https://www.baidu.com/>
 
