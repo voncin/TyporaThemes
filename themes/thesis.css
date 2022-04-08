@@ -263,7 +263,7 @@ blockquote {
 }
 
 hr {
-  border-top: solid 0.7px #eee;
+  border-top: solid 0.7px var(--border-color);
 }
 
 img {
@@ -340,18 +340,22 @@ code {
   font-family: var(--code-font), var(--ui-font), monospace;
 }
 
+.md-fences,
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code,
 p code,
 li code {
   color: #3c70c6;
   background-color: #fefefe;
-  border: 1px solid #c8d3df;
+  border: 1px solid var(--border-color);
   font-family: var(--code-font), var(--ui-font), monospace;
   box-sizing: border-box;
   margin: 0 2px 0 2px;
   padding: 0 2px 0 2px;
   /* 圆角 */
   border-radius: 2px 2px 2px 2px;
+}
+.CodeMirror-gutters {
+    border-right: 1px solid var(--border-color);
 }
 
 /* typora 编写模式 */
@@ -397,6 +401,9 @@ li code {
 .footnotes-area hr {
   border: 0;
   color: #00000000;
+}
+.md-footnote.md-expand{
+    background-color: transparent;
 }
 
 /* 目录 */

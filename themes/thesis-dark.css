@@ -36,10 +36,7 @@ body {
   background-color: #1e1e1e;
 }
 
-hr {
-  border-top: solid 0.7px #888888;
-}
-
+.md-fences,
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code,
 p code,
 li code {
