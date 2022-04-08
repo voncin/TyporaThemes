@@ -1025,9 +1025,7 @@ a.ty-link {
     color: var(--code-block-color);
 }
 .cm-s-inner .CodeMirror-gutters {
-    border-right: none;
-    border-radius: 2px;
-    padding-left: 0.5rem;
+    border-right: 1px solid #263238;
     background: #263238;
     color: #546E7A;
 }
