@@ -3,20 +3,20 @@
 :root {
   /* == 字体设置 == */
   /* 基准字体 */
-  --base-Latin-font: "Times New Roman";
-  --base-Chinese-font: "宋体";
+  --base-Latin-font: system-ui, "Times New Roman";
+  --base-Chinese-font: system-ui, "宋体";
   --base-font-size: 9.5pt;
   /* 引言字体 */
-  --quote-font: "Times New Roman", "宋体";
+  --quote-font: system-ui, "Times New Roman", "宋体";
   /* 这里字体用了10pt,比正文字体稍大 */
   --quote-font-size: 10pt;
   /* 代码字体（代码中的中文会调用 ui-font） */
-  --code-font: "Courier New";
+  --code-font: Consolas, Menlo, "Courier New";
   /* 侧边栏字体 */
   --ui-font: system-ui;
   /* source mode 字体 */
   /* 默认调用 code-font 和 ui-font */
-  --sourceMode-font: "Courier New", system-ui;
+  --sourceMode-font: Consolas, Menlo, "Courier New", system-ui;
   /* 目录字体 */
   /* 默认调用 base-font */
   --toc-font: "";
@@ -41,13 +41,13 @@
   --h3-Chinese-font: system-ui;
   --h3-font-size: 12pt;
   /* h4字体 */
-  --h4-Chinese-font: "宋体";
+  --h4-Chinese-font: system-ui, "宋体";
   --h4-font-size: 10pt;
   /* h5字体 */
-  --h5-Chinese-font: "宋体";
+  --h5-Chinese-font: system-ui, "宋体";
   --h5-font-size: 10pt;
   /* h6字体 */
-  --h6-Chinese-font: "宋体";
+  --h6-Chinese-font: system-ui, "宋体";
   --h6-font-size: 9.5pt;
   /* 粗体样式设置 */
   /* 加粗风格时使用的字重；400等同于 normal，700等同于 bold，900等同于 heavy */
@@ -63,6 +63,7 @@
   /* == 颜色设置 == */
   /* 超链接颜色 */
   --link-color: #2E67D3;
+  --border-color: #d0d7de;
 }
 
 /* ========== VERY IMPORTANT 请注意看下面的几行: ================
@@ -180,8 +181,8 @@ strong {
   border-bottom: 1.2pt solid;
   font-family: var(--table-font), var(--base-Latin-font), var(--base-Chinese-font), serif;
   /* font-size: var(--base-font-size); */
-  text-align: center;
-  page-break-inside: avoid;
+  /* text-align: center; */
+  /* page-break-inside: avoid; */
   border-spacing: 6px;
   /* 自动布局表格宽度，如果有时内容太紧建议直接加空格吧，我自己看不惯和页面等宽的大表格 */
   width: auto;
@@ -189,13 +190,16 @@ strong {
   margin: 0 auto;
 }
 #write table td {
-  padding: 2px;
+  padding: 0px 6px;
+  border: 1.2pt solid var(--border-color);
 }
 #write table tr {
   padding: 2px;
+  vertical-align: top;
 }
 #write th {
   padding: 0px 6px;
+  border: 1.2pt solid var(--border-color);
 }
 #write thead {
   /* 表格标题（首行）样式 */

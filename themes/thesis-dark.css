@@ -17,6 +17,7 @@
   --select-text-font-color: #161616;
   --bg-color: hsl(0, 0%, 15%);
   --mermaid-theme: night;
+  --border-color: #30363d;
 }
 
 body {
