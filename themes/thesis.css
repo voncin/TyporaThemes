@@ -53,7 +53,7 @@
   /* 加粗风格时使用的字重；400等同于 normal，700等同于 bold，900等同于 heavy */
   --strong-weight: 900;
   /* 基础行距 */
-  --base-line-height: 16pt;
+  --base-line-height: 15pt;
   /* == 页面设置 == */
   /* 打印页边距 */
   --set-margin: 1.8cm 2cm 1.2cm 2cm !important;
@@ -134,6 +134,9 @@ strong {
 }
 #write em {
   font-family: var(--ui-font), sans-serif;
+}
+p, blockquote, ul, ol, dl, table {
+    margin: 0.5em 0;
 }
 #write h1,
 #write h2,
