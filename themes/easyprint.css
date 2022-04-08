@@ -106,15 +106,15 @@ a {
     color: #060;
 }
 
-table {
+/* table {
 	width: initial;
-}
+} */
 table th,
 table td {
     padding: 6px 13px;
 	vertical-align: top;
     font-weight: normal;
-	border: 1px solid #ccc;
+	/* border: 1px solid #ccc; */
 }
 table td {
     border-top: 1px solid #ccc;
