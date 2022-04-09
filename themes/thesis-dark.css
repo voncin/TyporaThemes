@@ -282,15 +282,15 @@ html>body>content {
 /* quick open框  （e.g. 插入代码后弹出的语言候选框） */
 .auto-suggest-container {
 	border: 0px;
-	background-color: #282828;
+	background-color: #24292f;
 }
 
 #typora-quick-open {
-	background-color: #282828;
+	background-color: #24292f;
 }
 
 #typora-quick-open input {
-	background-color: #282828;
+	background-color: #24292f;
 	border: 0;
 	border-bottom: 1px solid grey;
 }
@@ -299,7 +299,7 @@ html>body>content {
 .context-menu,
 #spell-check-panel,
 #footer-word-count-info {
-	background-color: #282828;
+	background-color: #24292f;
 }
 
 /* 退出代码模式的按钮，以及最近打开文件页面中的按钮 */
@@ -311,7 +311,7 @@ html>body>content {
 
 /* 鼠标悬停到按钮上后的悬停文本框 */
 .ty-tooltip {
-	background: #282828;
+	background: #24292f;
 	color: #fff;
 }
 
@@ -322,11 +322,11 @@ html>body>content {
 }
 
 .megamenu-menu {
-	background-color: #282828;
+	background-color: #24292f;
 }
 
 #recent-file-panel tbody tr:nth-child(2n-1) {
-	background-color: #282828;
+	background-color: #24292f;
 }
 
 /* typora UI 编辑页面，在宽度较小时的底栏 */
