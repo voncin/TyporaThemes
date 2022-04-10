@@ -316,7 +316,7 @@ blockquote {
 }
 
 hr {
-	border-top: solid 1px var(--color-border-default);
+	border: 0 none;
 	height: 1px;
 	background-color: var(--color-border-default);
 }
