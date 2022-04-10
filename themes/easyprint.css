@@ -59,6 +59,7 @@ h6 > span {
 hr {
 	height: 2px;
     background-color: #ccc;
+	border: 0 none;
 }
 
 p,
