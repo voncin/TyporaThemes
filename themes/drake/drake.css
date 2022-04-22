@@ -680,7 +680,7 @@ span.md-def-name {
 
 div.code-tooltip-content {
     box-shadow: 0 0 8px var(--box-shadow-color);
-    background: var(--footnotes-bg-color);
+    /* background: var(--footnotes-bg-color); */
 }
 
 .footnotes {
