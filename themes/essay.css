@@ -78,6 +78,12 @@ h6 {
     font-weight: normal;
 	font-size:8pt;
 }
+.md-fences,
+code {
+	font-size: 0.9em;
+    color: #d30;
+    font-family: monospace, FontAwesome;
+}
 /* 目录标题属性 */
 .md-toc-h2 {
 	font-family:system-ui,仿宋, FontAwesome;
