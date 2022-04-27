@@ -35,6 +35,12 @@
 - `drake` Typora官网主题, `drake-dark` drake暗色主题
 
 > `drake-light` 中使用 `Font awesome` 字体, 作**任务列表**的标记.需要安装字体(`./font/fontawesome-webfont.ttf`)到本地,导出时才能正确显示.
+>
+> FontAwesome: , ``, ====, ^^, ~~, ****, **, ******; 使用 `FontAwesome Cheatsheet.pdf` 复制插入;
+>
+> Typora: 在 drake.css/ 的每个`font-family:` 后都追加 `, FontAwesome` 字段 即可支持该标签的 FontAwesome 字符显示;
+>
+> > 在 Word 中 选择 插入/符号/其他符号/字体:Webdings>FontAwesome; 即可插入 FontAwesome 字体字符;
 
 - `jianshu` 简书风格主题
 

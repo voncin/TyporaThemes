@@ -12,14 +12,14 @@ body {
     color: #000;
 }
 #write {
-    font-family: "Source Han Serif", "Times New Roman", 宋体, serif;
+    font-family: "Source Han Serif", "Times New Roman", 宋体, serif, FontAwesome;
 	max-width: 1010px;
     padding-bottom: 300px;
 	line-height: 1.6;
 }
 
 em {
-    font-family: "Source Han Sans", "Source Han Serif", 仿宋, serif;
+    font-family: "Source Han Sans", "Source Han Serif", 仿宋, serif, FontAwesome;
 }
 
 h1 {
@@ -89,7 +89,7 @@ code {
 	font-size: 0.9em;
     color: #d30;
     border-radius: 3px;
-    font-family: "Source Han Mono", "Courier New", "Source Han Serif", 宋体, monospace;
+    font-family: "Source Han Mono", "Courier New", "Source Han Serif", 宋体, monospace, FontAwesome;
 }
 .CodeMirror-lines,
 .code-tooltip {

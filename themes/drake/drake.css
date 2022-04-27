@@ -2,7 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
 
 :root {
-    --monospace: "Fira Code", "JetBrains Mono", Consolas, Menlo, "Courier New", system-ui, monospace;
+    --monospace: "Fira Code", "JetBrains Mono", Consolas, Menlo, "Courier New", system-ui, monospace, FontAwesome;
     --control-text-color: var(--text-color);
     --meta-content-color: var(--text-color);
     --active-file-border-color: var(--drake-accent);
