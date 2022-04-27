@@ -736,11 +736,11 @@ div.code-tooltip-content {
     top: 0;
 }
 
-#write .ul-list li.md-task-list-item.task-list-done p {
+#write ul li.md-task-list-item.task-list-done p {
     text-decoration: line-through;
 }
 
-#write .ul-list li.md-task-list-item.task-list-done::before {
+#write ul li.md-task-list-item.task-list-done::before {
     content: "\f14a";
 	color: var(--checkbox-checked);
 	font-size: 16px;
@@ -753,7 +753,7 @@ div.code-tooltip-content {
     margin-left: -1.6em;
 }
 
-#write .ul-list li.md-task-list-item.task-list-not-done::before {
+#write ul li.md-task-list-item.task-list-not-done::before {
     content: "\f096";
 	color: var(--checkbox-unchecked);
 	font-size: 16px;
