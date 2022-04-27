@@ -34,7 +34,7 @@
 - `blackcode` 代码区为黑色, 好看一些
 - `drake` Typora官网主题, `drake-dark` drake暗色主题
 
-> `drake-light` 中使用 `Font awesome` 字体, 作**任务列表**的标记.需要安装字体(`./font/fontawesome-webfont.ttf`)到本地才能正确显示.
+> `drake-light` 中使用 `Font awesome` 字体, 作**任务列表**的标记.需要安装字体(`./font/fontawesome-webfont.ttf`)到本地,导出时才能正确显示.
 
 - `jianshu` 简书风格主题
 
