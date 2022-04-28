@@ -82,7 +82,7 @@ h6 {
 code {
 	font-size: 0.9em;
     color: #d30;
-    font-family: monospace, FontAwesome;
+    font-family: Consolas, Menlo, "Courier New", system-ui, monospace, FontAwesome;
 }
 /* 目录标题属性 */
 .md-toc-h2 {
