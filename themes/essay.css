@@ -8,8 +8,6 @@ body{
 /* 正文区基本属性 */
 #write {
    font-family:system-ui,宋体, FontAwesome;
-   /* font-size:12pt; */
-   /* font-size:7.875pt; */
    font-size:10.5pt;
    max-width: 21cm; /*A4标准宽度*/
    border:1px solid #CCC ; /* 添加一个淡灰色的边框 */
@@ -65,18 +63,18 @@ h3 {
 h4 {
 	/* text-align:center; */
 	font-family:system-ui,楷体, FontAwesome;
-	font-size:10pt;
+	font-size:10.5pt;
 }
 h5 {
 	text-align: right;
     font-weight: normal;
-	font-size:9pt;
+    font-size:7.875pt;
 }
 h6 {
 	text-align: center;
     color: #444;
     font-weight: normal;
-	font-size:8pt;
+    font-size:7.875pt;
 }
 .md-fences,
 code {
