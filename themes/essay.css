@@ -106,11 +106,15 @@ code {
 }
 #write table th{
 	padding:7px;
+	font-weight: normal;
 }
 #write thead{
-	border-bottom: 0.75pt solid #ccc;
+	/* border-bottom: 0.75pt solid #ccc; */
 	font-family:system-ui,黑体, FontAwesome;
 	font-size:10.5pt;
+}
+#write tbody{
+	border-top: 0.75pt solid #ccc;
 }
 @media print{
 	img{
