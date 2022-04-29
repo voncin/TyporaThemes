@@ -104,6 +104,9 @@ code {
 #write table td{
 	padding:7px;
 }
+#write table td:not(:first-child){
+	border-left: 0.75pt solid #ccc;
+}
 #write table th{
 	padding:7px;
 	font-weight: normal;
