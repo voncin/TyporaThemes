@@ -283,3 +283,7 @@ table tr:nth-child(2n) {
 img {
   max-width: 100%
 }
+
+input {
+    margin-top: calc(1em - 10px) !important;
+}
