@@ -208,10 +208,7 @@ pre code, pre tt {
 }
 
 kbd {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
+	box-shadow: none;
     background-color: #DDDDDD;
     background-image: linear-gradient(#F1F1F1, #DDDDDD);
     background-repeat: repeat-x;
