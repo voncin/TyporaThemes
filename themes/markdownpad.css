@@ -287,3 +287,6 @@ img {
 input {
     margin-top: calc(1em - 10px) !important;
 }
+table{
+    margin: 0.8em 0 !important;
+}
