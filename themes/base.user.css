@@ -14,6 +14,11 @@ h5 {
 h6 {
 	text-align: center;
 }
+
+hr {
+	page-break-after: always;
+}
+
 /* 修正暗色footer边框过亮 */
 footer.ty-footer {
     border-top: var(--window-border);
