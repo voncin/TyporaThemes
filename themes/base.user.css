@@ -1,6 +1,7 @@
-
-#write {
-    padding-bottom: 300px;
+@media screen {
+	#write {
+		padding-bottom: 300px;
+	}
 }
 
 h1 {
@@ -21,14 +22,16 @@ hr {
 
 /* 修正暗色footer边框过亮 */
 footer.ty-footer {
-    border-top: var(--window-border);
+	border-top: var(--window-border);
 }
+
 /* 修正文件树图标与文字未对齐 */
 .file-node-content {
-  display: flex;
-  align-items: center;
-  padding-bottom: 4px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 4px;
 }
+
 /* 退出显示源码 */
 /* .typora-sourceview-on #toggle-sourceview-btn {
   background: var(--bg-color);
