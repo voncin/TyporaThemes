@@ -375,7 +375,12 @@ table tr:nth-child(2n) {
 .cm-s-inner .CodeMirror-gutters {
 	background: inherit;
 	color: inherit;
-	border: none;
+	/* border: none; */
+	border-right: 1px solid var(--color-border-default);
+}
+
+.CodeMirror-lines {
+	padding-left: 4px;
 }
 
 .cm-s-inner .CodeMirror-guttermarker,
@@ -410,7 +415,7 @@ table tr:nth-child(2n) {
 }
 
 .cm-s-inner .CodeMirror-activeline-background {
-	background-color: var(--color-btn-active-bg);
+	/* background-color: var(--color-btn-active-bg); */
 }
 
 .cm-s-inner .cm-keyword {
