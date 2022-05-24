@@ -530,7 +530,7 @@ table tr:nth-child(2n) {
 
 .sidebar-tabs {
 	border-bottom: 1px solid;
-	border-color: var(--color-btn-hover-border);
+	border-color: var(--color-border-muted);
 }
 
 .file-list-item.active,
@@ -558,4 +558,8 @@ table tr:nth-child(2n) {
 .active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
 	height: 4px;
 	color: var(--color-primer-border-active);
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+	background: var(--bg-color);
 }
