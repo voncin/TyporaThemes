@@ -297,6 +297,11 @@ li code {
     font-family: var(--code-font), var(--ui-font), monospace;
 }
 
+.cm-s-inner {
+    border-top: 1.2pt solid;
+    border-bottom: 1.2pt solid;
+}
+
 /* typora 编写模式 */
 #typora-source {
     /* background: ;*/
