@@ -108,9 +108,10 @@ a {
     color: #060;
 }
 
-/* table {
-	width: initial;
-} */
+table {
+	/* width: initial; */
+    border-bottom: 1px dotted #ccc;
+}
 table tr th,
 table td {
     padding: 6px 13px;

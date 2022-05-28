@@ -200,6 +200,7 @@ img{
 
 table {
 	width: initial;
+    border-bottom: 1px solid #d1d9e6;
 }
 table tr th,
 table td {
