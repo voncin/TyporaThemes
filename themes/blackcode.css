@@ -201,8 +201,7 @@ img{
 table {
 	width: initial;
 }
-table tr,
-table th,
+table tr th,
 table td {
     border: 1px solid #d1d9e6;
     padding: 6px 13px;
