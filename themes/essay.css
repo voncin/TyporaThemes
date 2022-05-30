@@ -55,6 +55,7 @@ h2 {
 	/* text-align:center; */
 	font-size:14pt;
 	border-bottom: 1px solid #ccc;
+	/* page-break-before:always!important; */
 }
 h3 {
 	font-family:system-ui,黑体, FontAwesome;
@@ -94,7 +95,7 @@ h6 {
 	font-family:system-ui,宋体, FontAwesome;
 	font-size:10.5pt;
 	/* text-align:center; */
-    page-break-inside:avoid!important;
+    /* page-break-inside:avoid!important; */
 }
 #write table td{
 	padding:7px;
