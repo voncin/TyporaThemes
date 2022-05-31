@@ -136,11 +136,11 @@ table td {
     padding: 6px 13px;
 	vertical-align: top;
     font-weight: normal;
-	border-left: 1px dotted transparent;
 }
 table td {
     border-top: 1px solid #ccc;
 }
+table tr th:not(:first-child),
 table td:not(:first-child){
 	border-left: 1px dotted #eee;
 }
