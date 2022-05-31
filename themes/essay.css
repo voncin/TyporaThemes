@@ -77,6 +77,11 @@ h6 {
     font-weight: normal;
     font-size:7.875pt;
 }
+hr {
+    height: 1px;
+    background-color: #eee;
+    border: 0 none;
+}
 
 /* 目录标题属性 */
 .md-toc-h2 {
