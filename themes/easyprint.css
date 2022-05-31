@@ -1,12 +1,12 @@
 /* 打印区域宽度不足时启用 */
-/* 
+
 body {
 	padding: 0 !important;
 	margin: 0 !important;
 }
 #write {
 	max-width: 21cm;
-	border: 1px solid #ccc;
+	border: 1px solid #eee;
 }
 @media screen {
 	#write {
@@ -22,7 +22,7 @@ body {
 @page {
 	margin: 1.2cm;
 }
- */
+
 
 html {
     font-size: 16px;
@@ -77,7 +77,7 @@ h6 > span {
 }
 hr {
 	height: 2px;
-    background-color: #ccc;
+    background-color: #eee;
 	border: 0 none;
 }
 
@@ -129,17 +129,20 @@ a {
 
 table {
 	/* width: initial; */
-    border-bottom: 1px dotted #ccc;
+    page-break-inside:avoid!important;
 }
 table tr th,
 table td {
     padding: 6px 13px;
 	vertical-align: top;
     font-weight: normal;
-	border: 1px dotted #ccc;
+	border-left: 1px dotted transparent;
 }
 table td {
     border-top: 1px solid #ccc;
+}
+table td:not(:first-child){
+	border-left: 1px dotted #eee;
 }
 table tbody {
     border-top: 2px solid #ccc;
