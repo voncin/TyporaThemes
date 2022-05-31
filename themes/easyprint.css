@@ -1,10 +1,29 @@
+/* 打印区域宽度不足时启用 */
 /* 
-文件位置:
-C:\Users\Admin\AppData\Roaming\Typora\themes
-1. h1 & h5右对齐, h6居中
-2. 高亮改为绿色边框
-> 透明背景色,宽度匹配打印字号,更利于打印
-*/
+body {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+#write {
+	max-width: 21cm;
+	border: 1px solid #ccc;
+}
+@media screen {
+	#write {
+		padding: 1.2cm;
+	}
+}
+@media print {
+	#write {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+}
+@page {
+	margin: 1.2cm;
+}
+ */
+
 html {
     font-size: 16px;
 }
