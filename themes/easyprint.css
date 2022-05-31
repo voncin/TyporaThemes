@@ -136,7 +136,7 @@ table td {
     padding: 6px 13px;
 	vertical-align: top;
     font-weight: normal;
-	border: 1px dotted #ccc !important;
+	border: 1px dotted #ccc;
 }
 table td {
     border-top: 1px solid #ccc;
